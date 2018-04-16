@@ -8,4 +8,4 @@ Phidgets Python module: https://www.phidgets.com/docs/Language_-_Python
 
 Run it!
 
-rosrun phidgets_interface phidgets_publish.py
+rosrun phidgets_interface Phidgets_Interface.py
