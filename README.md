@@ -18,7 +18,7 @@ monitor_0 = PhidgetMonitor(0, 'SENSOR_NAME','ANALOG0','ANALOG')
 monitor_0.setup()
 ```
 
-Copy and Paste this two lines to each sensor you want to attach on Phidgets. In the example a above, the first parameter is the channel number which is 0. The second element is the name of the sensor that you will attach on Phidgets, the third parameter is the name of the topic to publish the data, and the last parameter specifies if the channel is a Digital Input or an Analog Input. 
+Copy and Paste these two lines to each sensor you want to attach on Phidgets. In the example a above, the first parameter is the channel number which is 0. The second element is the name of the sensor that you will attach on Phidgets, the third parameter is the name of the topic to publish the data, and the last parameter specifies if the channel is a Digital Input or an Analog Input. 
 
 Don't forget to do this for each sensor attached. Save the changes and you will be able to run it. 
 
