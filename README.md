@@ -24,5 +24,6 @@ Don't forget to do this for each sensor attached. Save the changes and you will 
 
 Run it!
 -------------------------
-
-~: rosrun phidgets_interface Phidgets_Interface.py
+```
+:~/catkin_ws$ rosrun phidgets_interface Phidgets_Interface.py
+```
