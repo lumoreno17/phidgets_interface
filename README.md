@@ -11,7 +11,7 @@ How it works
 ----------------------
 
 Edit the src/Phidgets_Interface.py  to specify the channel number, sensor name, desired topic name and the channel mode.
-On Phidgets_Intercace.py in the end of the code you will find an example: 
+On Phidgets_Interface.py in the end of the code you will find an example: 
 
 ```
 monitor_0 = PhidgetMonitor(0, 'SENSOR_NAME','ANALOG0','ANALOG') 
