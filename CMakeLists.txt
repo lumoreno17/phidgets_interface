@@ -11,11 +11,15 @@ find_package(catkin REQUIRED COMPONENTS
    FILES
    DeviceInfo.msg
  )
+ 
+ add_service_files(
+  FILES
+  ProximityStatus.srv
+)
 
  generate_messages(
    DEPENDENCIES std_msgs
  )
-
 
 catkin_package(
   INCLUDE_DIRS include
