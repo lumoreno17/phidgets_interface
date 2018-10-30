@@ -76,13 +76,13 @@ class PhidgetMonitor:
 
 if __name__ == '__main__':
 
-    rospy.init_node('voltage_read', anonymous=True)
+    rospy.init_node('phidgets_read', anonymous=True)
 # PhidgetMonitor(Channel number, Sensor Name, Topic Name, Channel Mode)
-    monitor_0 = PhidgetMonitor(0, 'Sonar','ANALOG0','ANALOG')
+    monitor_0 = PhidgetMonitor(0, 'LM35','temperature','ANALOG')
     monitor_0.setup()
-    monitor_1 = PhidgetMonitor(1, 'SENSOR_NAME2','ANALOG1','ANALOG')
+    monitor_1 = PhidgetMonitor(1, 'MaxBotix','sonar','ANALOG')
     monitor_1.setup()
-    monitor_2 = PhidgetMonitor(0, 'Proximity Sensor','DIGITAL0','DIGITAL')
+    monitor_2 = PhidgetMonitor(0, 'Proximity Sensor','proximity1','DIGITAL')
     monitor_2.setup()
     rospy.spin()
 
